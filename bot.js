@@ -77,4 +77,27 @@ The steps of the role did not worked .!!
 		   message.author.send({embed})
 	   }
    });
+
+const Discord = require("discord.js");
+const client = new Discord.Client();
+client.on('ready code by captain', () => {
+console.log("Discord Bot By Captain ?");
+  console.log('Captain')
+  console.log('Captain')
+  console.log('Captain')
+  console.log('Captain')
+  console.log('Captain')
+ 
+ 
+}); 
+ 
+client.on("guildMemberAdd", member => {
+  member.createDM().then(function (author) {
+  return author.send(' ** .. تنورنا  (  رابطالدسكورد )** ')
+ 
+}).catch(console.error)
+})
+ 
+client.login("NTMxNzA4MzMxNTk3NzU4NDY1.DxR31Q.hNW0BL--mlNcTUk8cQhvZ1zQRAQ");
+
 client.login(process.env.BOT_TOKEN)
